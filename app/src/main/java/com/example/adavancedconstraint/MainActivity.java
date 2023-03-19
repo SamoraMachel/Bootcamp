@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences("shared", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
-        Button loginBtn = findViewById(R.id.loginButton);
+        Button loginBtn = findViewById(R.id.loginbutton);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
